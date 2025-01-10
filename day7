@@ -1,0 +1,12 @@
+import pandas as pd
+
+# Load the sales_data.csv file
+data = pd.read_csv('sales_data.csv')
+
+# Display the first 5 rows of the dataset
+print("First 5 rows of the dataset:")
+print(data.head())
+
+# Print basic statistics of the numerical columns
+print("\nBasic statistics of the numerical columns:")
+print(data.describe())
